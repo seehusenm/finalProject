@@ -6,7 +6,7 @@
 
 ### Difficulties or opportunities you encountered along the way.
 
-   The toughest part was getting the ball to move and the score keeper. At first the paddles weren't moving at the same time, but that was a quick fix. At one point I had the ball bouncing off the paddles, then I changed something and it broke, but I fixed it again with the help of Natasha. 
+   The toughest part was getting the ball to move and the score keeper. At first the paddles weren't moving at the same time, but that was a quick fix. At one point I had the ball bouncing off the paddles, then I changed something and it broke, but I fixed it again with the help of Natasha. My favprite part was making the background, because the colors are cool. It adds a twist to a generic black and white version.
 
 ### Most interesting piece of your code and explanation for what it does.
 
