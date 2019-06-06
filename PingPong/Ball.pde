@@ -5,6 +5,8 @@ public class Ball{
   float yspeed = 2.75;
   int w = 25;
   int h = 25;
+  int pinkScore = 0;
+  int blueScore = 0;
     
   public Ball(){
   }
@@ -58,19 +60,23 @@ public class Ball{
   }
   
   void reset(){
-    if (x > 800 || x < 0){
+    if (x > 800){
       x = width/2;
       y = height/2;
+      blueScore+=1;
+    }
+    else if(x < 0){
+      x= width/2;
+      y = height/2;
+      pinkScore+=1;
     }
   }
-  void scored(int redScore, int blueScore){
-    if(x>=770){
-      redScore++;
-    }
-    if(x<=30){
-      blueScore++;
-    }
-    System.out.println(redScore);
-    System.out.println(blueScore);
+  void scored(){
+    fill(0,0,0);
+    textSize(29);
+    text(blueScore, 350, 35);
+    fill(0,0,0);
+    textSize(29);
+    text(pinkScore, 450, 35);
   }
 }

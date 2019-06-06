@@ -31,8 +31,6 @@ void draw() {
   background(0);
   BG.Basic();
   S.Score();
-  S.keepTrack();
-  S.mousePressed();
   b.Circle();
   playerPink();
   playerBlue();
@@ -40,7 +38,7 @@ void draw() {
   b.BouncePink(pinkX, pinkY, 15, 50);
   b.BounceBlue(blueX, blueY, 15, 50);
   b.Move();
-  b.scored(intPink, intBlue);
+  b.scored();
   //ball moving
   if (move>0) {
     x+=5;
